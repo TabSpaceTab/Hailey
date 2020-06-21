@@ -6,11 +6,10 @@ For the writers who need assistance.
  ```shell
 $ git clone https://github.com/TabSpaceTab/Hailey.git && cd Hailey
 $ pip3 install requirements.txt
-# download huggingface's pytorch model 
+# download huggingface's pytorch model for Linux based OS
 $ curl --output gpt2-pytorch_model.bin https://s3.amazonaws.com/models.huggingface.co/bert/gpt2-pytorch_model.bin
-#Install NodeJs for your OS
-$ cd Hailey && npm start
-
+# Download huggingface's pytorch model for Windows
+$ curl -o gpt2-pytorch_model.bin https://s3.amazonaws.com/models.huggingface.co/bert/gpt2-pytorch_model.bin
 ```
 
 
