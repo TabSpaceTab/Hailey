@@ -5,7 +5,7 @@ For the Writers who need assistance.
 
  ```shell
 $ git clone https://github.com/TabSpaceTab/Hailey.git && cd Hailey
-$ pip3 install requirements.txt
+$ pip3 install -r requirements.txt
 # download huggingface's pytorch model for Linux based OS
 $ curl --output gpt2-pytorch_model.bin https://s3.amazonaws.com/models.huggingface.co/bert/gpt2-pytorch_model.bin
 # Download huggingface's pytorch model for Windows
