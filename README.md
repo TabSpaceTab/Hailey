@@ -14,7 +14,7 @@ $ curl -o gpt2-pytorch_model.bin https://s3.amazonaws.com/models.huggingface.co/
 $ python3 app.py
 # NOTE:
 Windows users will have to make the following changes to the app.py file.
-cmd = 'python printer.py --text "%s" --quiet "-"'%(option)
+cmd = 'python printer.py --text "%s" --quiet "-"'%(option) from cmd = 'python3 printer.py --text "%s" --quiet "-"'%(option)
 ```
 
 
