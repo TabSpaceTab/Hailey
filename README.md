@@ -3,11 +3,12 @@ For the writers who need assistance.
 
 ## Installation of prerequisites
 
- ```$ git clone https://github.com/TabSpaceTab/Hailey.git && cd Hailey
+ ```shell
+$ git clone https://github.com/TabSpaceTab/Hailey.git && cd Hailey
 $ pip3 install requirements.txt
-
- #Install NodeJs for your OS
-
+# download huggingface's pytorch model 
+$ curl --output gpt2-pytorch_model.bin https://s3.amazonaws.com/models.huggingface.co/bert/gpt2-pytorch_model.bin
+#Install NodeJs for your OS
 $ cd Hailey && npm start
 
 ```
