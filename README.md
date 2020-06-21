@@ -1,5 +1,5 @@
 # Hailey
-For the writers who need assistance.
+For the Writers who need assistance.
 
 ## Installation of prerequisites
 
@@ -10,6 +10,8 @@ $ pip3 install requirements.txt
 $ curl --output gpt2-pytorch_model.bin https://s3.amazonaws.com/models.huggingface.co/bert/gpt2-pytorch_model.bin
 # Download huggingface's pytorch model for Windows
 $ curl -o gpt2-pytorch_model.bin https://s3.amazonaws.com/models.huggingface.co/bert/gpt2-pytorch_model.bin
+# To execute the code
+$ python3 app.py
 ```
 
 
