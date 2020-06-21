@@ -12,6 +12,9 @@ $ curl --output gpt2-pytorch_model.bin https://s3.amazonaws.com/models.huggingfa
 $ curl -o gpt2-pytorch_model.bin https://s3.amazonaws.com/models.huggingface.co/bert/gpt2-pytorch_model.bin
 # To execute the code
 $ python3 app.py
+# NOTE:
+Windows users will have to make the following changes to the app.py file.
+cmd = 'python printer.py --text "%s" --quiet "-"'%(option)
 ```
 
 
