@@ -2,12 +2,15 @@
 For the writers who need assistance.
 
 ## Installation of prerequisites
-$ git clone https://github.com/TabSpaceTab/Hailey.git && cd Hailey
+
+ ```$ git clone https://github.com/TabSpaceTab/Hailey.git && cd Hailey
 $ pip3 install requirements.txt
 
  #Install NodeJs for your OS
 
 $ cd Hailey && npm start
+
+```
 
 
 ## Acknowledgement
