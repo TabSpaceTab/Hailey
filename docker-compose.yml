@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  hailey:
+    image: hailey
+    container_name: ai_container
+    restart: unless-stopped
+    ports:
+      - 5000:5000
