@@ -1,6 +1,7 @@
 FROM ubuntu:latest
 WORKDIR /home/python/app
 COPY . .
+RUN apt-get update -y 
 RUN apt-get install -y python3-pip
 RUN pip3 install torch==1.2.0+cpu -r https://download.pytorch.org/whl/torch_stable.html
 RUN pip3 install -r requirements.txt
