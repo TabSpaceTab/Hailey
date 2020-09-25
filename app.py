@@ -7,6 +7,14 @@ app = Flask(__name__)
 def index():
   return render_template('index.html')
 
+@app.route('/speak/',method=['GET'])
+def speak():
+  if request.method='GET':
+    opt1 = 'python3 audio.py'
+    os.system(opt1)
+
+  return render_template("index.html",out = line)
+
 @app.route('/my-link/', methods=['GET','POST'])
 def my_link():
   if request.method == 'POST':
