@@ -1,0 +1,52 @@
+<!doctype html>
+
+
+<head>
+    <title>Hailey</title> 
+    <meta charset=utf-8>
+    <!-- minify -->
+    <link href="https://unpkg.com/nes.css@2.3.0/css/nes.min.css" rel="stylesheet" />
+    <!-- latest -->
+    <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
+    <!-- core style only -->
+    <link href="https://unpkg.com/nes.css/css/nes-core.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+ </head>
+
+<body>
+    <h1>TabSpaceTab</h1>
+    <div class="nes-container with-title is-centered">
+        <p class="title">Hey there !</p>
+        Hailey is an open-source software, based on OpenAI's GPT2.
+        <br>
+        It takes your thoughts and make a story out of it. It is really helpful for those who want their thoughts to be noted down but apparently they aren't that good with writing skills.
+        <br>
+        Also It'll help my 12 year old self with the language homework :)
+    </div>
+    <div class="nes-container with-title is-centered">
+        <p class="title">Hailey</p>
+        <form action="/my-link/" method="POST">
+            <label>Put your thoughts here....</label>
+            <input type="text" name="sentence" class = "nes-input" value={{request.form.sentence}}>
+            <button type="submit" class="nes-btn is-primary">show me</button>
+        </form>
+        <br>
+
+        <div class="nes-container is-rounded">
+            <p>{{out}}</p>
+          </div>
+        <br>
+        <br>
+        <br>
+        
+        <br>
+        <br>
+        
+    </div>
+    <div class="nes-container with-title is-centered">
+        <p class="title">Creators. </p>
+        <a class="nes-bulbasaur" href="https://www.linkedin.com/in/shubham-baid-6683b314b/"></a>
+        <a class="nes-charmander" href="https://www.linkedin.com/in/jalay-rupera-b774b5131/"></a>
+        </div>
+
+</body>
