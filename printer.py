@@ -10,6 +10,7 @@ from GPT2.config import GPT2Config
 from GPT2.sample import sample_sequence
 from GPT2.encoder import get_encoder
 
+
 def text_generator(state_dict):
     parser = argparse.ArgumentParser()
     parser.add_argument("--text", type=str, required=True)
@@ -69,6 +70,8 @@ def text_generator(state_dict):
             with open('out.txt','w') as f:
                 print('',text,file=f)    
             print(text)
+    
+
 
 if __name__ == '__main__':
     if os.path.exists('gpt2-pytorch_model.bin'):
