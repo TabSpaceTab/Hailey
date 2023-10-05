@@ -17,6 +17,7 @@ Windows users will have to make the following changes to the app.py file.
 cmd = 'python printer.py --text "%s" --quiet "-"'%(option) from cmd = 'python3 printer.py --text "%s" --quiet "-"'%(option)
 ```
 
+## Edit Oct 5: Did it wayyyy before it was cool :grin:
 
 ## Acknowledgement
 
